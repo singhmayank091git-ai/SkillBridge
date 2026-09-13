@@ -322,18 +322,6 @@ export default function App() {
           className="min-h-screen w-full flex items-center justify-center p-3 sm:p-6 lg:p-8 relative z-10"
           id="skillbridge-auth-app"
         >
-          {/* Back to Dashboard Banner */}
-          <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-20">
-            <button
-              type="button"
-              id="back-to-dashboard-btn"
-              onClick={handleReturnToDashboard}
-              className="px-3.5 py-2 rounded-xl bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] text-slate-300 hover:text-white text-xs sm:text-sm font-semibold flex items-center gap-2 backdrop-blur-md transition-all cursor-pointer"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              <span>Back to Dashboard</span>
-            </button>
-          </div>
 
           {/* Main Auth Split Container */}
           <motion.div
